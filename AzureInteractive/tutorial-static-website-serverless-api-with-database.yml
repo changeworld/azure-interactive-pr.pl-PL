@@ -1,0 +1,49 @@
+### YamlMime:Tutorial
+title: <span data-ttu-id="d5ddf-101">Tworzenie bezserwerowej aplikacji internetowej na platformie Azure</span><span class="sxs-lookup"><span data-stu-id="d5ddf-101">Build a serverless web app in Azure</span></span>
+metadata:
+  title: Tworzenie bezserwerowej aplikacji internetowej na platformie Azure | Microsoft Docs
+  description: W tym samouczku dowiesz się, jak opublikować statyczną aplikację internetową korzystającą z bezserwerowych składników platformy Azure do przekazywania, analizowania i modyfikowania obrazów.
+  audience: Developer
+  level: Intermediate
+  displayType: two-column
+  interactive: azurecli
+  author: ggailey777
+  manager: cfowler
+  ms.service: multiple
+  ms.topic: interactive-tutorial
+  ms.date: 06/22/2018
+  ms.author: glenga
+  ms.openlocfilehash: d0bd4c0b4b1a6995e2d5148a4f49769aee0f4dc7
+  ms.sourcegitcommit: f96b5b10238122db9506f1a7c7f53ace9b28c293
+  ms.translationtype: HT
+  ms.contentlocale: pl-PL
+  ms.lasthandoff: 08/24/2018
+  ms.locfileid: "40079312"
+items:
+- durationInMinutes: 1
+  content: >
+    [!INCLUDE [](./includes/intro.md)]
+- title: <span data-ttu-id="d5ddf-104">Tworzenie aplikacji internetowej w usłudze Azure Blob Storage</span><span class="sxs-lookup"><span data-stu-id="d5ddf-104">Create a web app in Azure Blob storage</span></span>
+  durationInMinutes: 12
+  content: >
+    [!INCLUDE [](./includes/static-site.md)]
+- title: <span data-ttu-id="d5ddf-105">Przekazywanie obrazów do usługi Blob Storage przy użyciu usługi Azure Functions</span><span class="sxs-lookup"><span data-stu-id="d5ddf-105">Upload images to Blob storage with Azure Functions</span></span>
+  durationInMinutes: 20
+  content: "[!INCLUDE [](./includes/upload-images.md)] \n"
+- title: <span data-ttu-id="d5ddf-106">Zmiana rozmiaru obrazów przy użyciu usługi Azure Functions</span><span class="sxs-lookup"><span data-stu-id="d5ddf-106">Resize images with Azure Functions</span></span>
+  durationInMinutes: 15
+  content: >
+    [!INCLUDE [](includes/resize-images.md)]
+- title: <span data-ttu-id="d5ddf-107">Przechowywanie metadanych obrazów przy użyciu usługi Azure Cosmos DB</span><span class="sxs-lookup"><span data-stu-id="d5ddf-107">Store image metadata with Azure Cosmos DB</span></span>
+  durationInMinutes: 15
+  content: >
+    [!INCLUDE [](includes/store-images.md)]
+- title: <span data-ttu-id="d5ddf-108">Dodawanie podpisów obrazów przy użyciu interfejsu API przetwarzania obrazów</span><span class="sxs-lookup"><span data-stu-id="d5ddf-108">Add image captions with Computer Vision</span></span>
+  durationInMinutes: 15
+  content: >
+    [!INCLUDE [](includes/computer-vision.md)]
+- title: <span data-ttu-id="d5ddf-109">Dodawanie uwierzytelniania</span><span class="sxs-lookup"><span data-stu-id="d5ddf-109">Add authentication</span></span>
+  durationInMinutes: 15
+  content: >
+    [!INCLUDE [](includes/authentication.md)]
+- content: '[!INCLUDE [](includes/completed.md)]'
