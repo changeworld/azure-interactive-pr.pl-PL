@@ -49,7 +49,7 @@ Aplikacja funkcji w tym samouczku wymaga wersji 1.x środowiska uruchomieniowego
 W poniższym poleceniu interfejsu wiersza polecenia platformy Azure wartość „<app_name>” to nazwa Twojej aplikacji funkcji.
 
 ```azurecli
-az functionapp config appsettings set --name <function app name> --g first-serverless-app --settings FUNCTIONS_EXTENSION_VERSION=~1
+az functionapp config appsettings set --name <function app name> -g first-serverless-app --settings FUNCTIONS_EXTENSION_VERSION=~1
 ```
 
 ## <a name="create-an-http-triggered-serverless-function"></a>Tworzenie funkcji bezserwerowej wyzwalanej przez protokół HTTP
